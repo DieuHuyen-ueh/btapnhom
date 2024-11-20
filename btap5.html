@@ -1,0 +1,56 @@
+<html>
+    <head>
+<style>
+    body {background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;}
+        .form-dang-ky{
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);}
+            h1{text-align:center;}
+       
+    label {display: block;
+        }
+        .noi-dung-dang-ky{width: 100%; padding: 10px;}
+        button {
+           width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;}
+</style>
+    </head>
+    <body>
+        <!--Tạo form đăng ký-->
+        <form method = "get" action = "btap5.html">
+        <div class = "form-dang-ky">
+        <h1> Form đăng ký</h1>
+        <div class = "noi-dung-dang-ky">
+        <label for="ten">Họ và tên:</label>
+      <input type="text" id="ten" name="ten" required> </br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required> </br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      </div>
+      <div class="wrap">
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+  </div>
+    </div>
+
+    </body>
+</html>
